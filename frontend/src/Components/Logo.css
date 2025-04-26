@@ -1,0 +1,22 @@
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: white;
+    color: green;
+    font-size: 50px;
+    font-weight: bold;
+    animation: bounce 2s infinite;
+    padding: 10px;
+  }
+  
+  @keyframes bounce {
+    0%, 100% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+  }
+  
